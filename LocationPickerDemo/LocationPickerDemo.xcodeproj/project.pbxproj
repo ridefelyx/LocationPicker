@@ -126,10 +126,9 @@
 			};
 			buildConfigurationList = 022E3F651CB11C87006BF665 /* Build configuration list for PBXProject "LocationPickerDemo" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
