@@ -118,10 +118,9 @@ open class LocationItem: NSObject, NSCoding {
     }
     
     open override func isEqual(_ object: Any?) -> Bool {
-        guard let object = object else { return false }
-        return (object as AnyObject).hashValue == hashValue
+        guard let object = object as? NSObject else { return false }
+        return object.hashValue == hashValue
     }
-    
     
     public required convenience init(coder aDecoder: NSCoder) {
         let latitude = aDecoder.decodeDouble(forKey: "latitude")
